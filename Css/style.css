@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+body{
+    background-color: rgb(12, 52, 88); 
+}
+
+.container{
+    width: 520px;
+    height: 605px;
+    padding: 10px;
+    text-align: center;
+    margin: auto;
+}
+
+.titre{
+    padding: 20px;
+    width: 400px;
+    color: white;
+    text-align: center;
+    font-size:2.6em ;
+    margin: 13px;
+    box-shadow: 0 4px 8px 0 rgb(0, 90, 194);
+}
+.cls-square{
+    width: 130px;
+    height: 130px;
+    margin: 15px 6px 0 15px;
+    float: left;
+    text-transform: uppercase;
+    border-radius: 3px;
+    font-size: 7rem;
+    color: white;
+    box-shadow: 0 4px 8px 0 rgb(0, 90, 194);
+}
+.cls-square:hover{
+    background-color: rgb(0, 102, 219); 
+    cursor: pointer;
+}
